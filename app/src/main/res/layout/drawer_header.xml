@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="173dp"
+        android:layout_height="130dp"
+        android:padding="10dp"
+        android:src="@drawable/book"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="191dp"
+        android:layout_height="59dp"
+        android:padding="50dp"
+        android:text="@string/navigation_drawer"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
